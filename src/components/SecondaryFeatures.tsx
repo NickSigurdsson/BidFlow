@@ -20,10 +20,10 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Automate non-value added work',
+    summary: 'No More Manual Copy-Pasting',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Upload client bid templates, extract key details like shots, descriptions, and resources, and generate structured estimates instantly.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -54,11 +54,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Standardization',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Eliminate Costing Inconsistencies',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'AI-powered templates analyze historical data to auto-suggest estimates, ensuring pricing is consistent and reducing costly guesswork.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -82,11 +82,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Improvement',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      ' Continuous Bidding Improvements',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Integrate with industry standard tools like ShotGrid to compare estimate vs. actual costs, helping to refine future bids and establish sustainable  bidding strategies.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
